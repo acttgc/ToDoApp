@@ -18,11 +18,6 @@ const MainNavigation = () => {
               Dodaj todo
             </NavLink>
           </li>
-          <li>
-            {/* <NavLink to='/login' className={navData => navData.isActive ? classes.active : '' }>
-              Zaloguj się
-            </NavLink> */}
-          </li>
         </ul>
       </nav>
     </header>
