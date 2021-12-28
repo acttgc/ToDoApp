@@ -1,0 +1,7 @@
+.descriptions {
+  text-align: center;
+}
+
+.descriptions > button {
+  font-size: 1.25rem;
+}
