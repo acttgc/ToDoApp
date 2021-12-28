@@ -19,9 +19,9 @@ const MainNavigation = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to='/login' className={navData => navData.isActive ? classes.active : '' }>
+            {/* <NavLink to='/login' className={navData => navData.isActive ? classes.active : '' }>
               Zaloguj się
-            </NavLink>
+            </NavLink> */}
           </li>
         </ul>
       </nav>
