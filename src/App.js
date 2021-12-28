@@ -11,6 +11,7 @@ function App() {
   return (
     <Layout>
       <Routes>
+        <Route path='/ToDoApp' element={<Navigate replace to='/todo' />} />
         <Route path='/' element={<Navigate replace to='/todo' />} />
         <Route path='/todo' element={<AllTodos />} />
         <Route path='/todo/:todoId' element={<TodoDetail />}>
